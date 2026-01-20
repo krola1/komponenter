@@ -1,10 +1,10 @@
-export default function GrandChild(props) {
-  console.log("grandchild", props);
+export default function GrandChild({ value }) {
+  console.log("grandchild", value);
 
   return (
     <div style={{ border: "solid white" }}>
       <h1>GrandChild</h1>
-      <p>info : {props.value}</p>
+      <p>info : {value}</p>
     </div>
   );
 }
