@@ -1,10 +1,10 @@
 import GrandChild from "./GrandChild";
 
-export default function Child({ value }) {
+export default function Child(props) {
   return (
-    <div style={{ border: "solid white" }}>
+    <div className="box">
       <h1>Child</h1>
-      <GrandChild value={value} />
+      <GrandChild {...props} />
     </div>
   );
 }

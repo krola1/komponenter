@@ -4,6 +4,9 @@
   padding: 2rem;
   text-align: center;
 }
+.box{
+  border: solid green;
+}
 
 .logo {
   height: 6em;
